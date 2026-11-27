@@ -376,3 +376,4 @@ body.leaving main,body.leaving .site-footer,body.leaving .next-page,body.leaving
   .steps-index{padding-top:72px}
   .steps-index .bg{padding:24px}
 }
+.curtain .c-place:empty{display:none}

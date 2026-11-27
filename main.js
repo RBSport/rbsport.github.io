@@ -20,7 +20,7 @@
   /* ---------- sipario: primo ingresso, arrivo da un'altra pagina ---------- */
   const curtain = document.querySelector('.curtain');
   const tagPlace = curtain.querySelector('.c-place'), tagName = curtain.querySelector('.c-name');
-  function setTag(p) { tagPlace.textContent = p.place; tagName.textContent = p.name; }
+  function setTag(p) { tagPlace.textContent = ''; tagName.textContent = p.name; }
   function open() {
     requestAnimationFrame(() => setTimeout(() => {
       body.classList.add('ready');
